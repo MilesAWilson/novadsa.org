@@ -1,0 +1,82 @@
+body {
+font-family: 'Manifold', sans-serif;
+color: #231F20
+}
+b {
+font-weight: 500
+}
+.jumbotron {
+background-color: white;
+border: 1px solid #e9ecef
+}
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+background-color: #EC1F27 !important;
+border-color: #EC1F27 !important;
+margin-top: 5px
+}
+.alert-primary {
+background-color: #EC1F27;
+border-color: #EC1F27;
+color: white
+}
+.logo {
+height: 100px;
+margin: 5px
+}
+.headline {
+position: relative
+}
+.headline > img {
+width: 100%
+}
+.headline > div {
+position: absolute;
+bottom: 0;
+left: 0;
+margin: 5px;
+}
+.headline > div > h2 {
+line-height: 150%
+}
+.headline > div > * > span {
+background-color: white;
+padding: 5px
+}
+.article > p {
+max-width: 28pc;
+margin-left: auto;
+margin-right: auto
+}
+.article > h2, .article > img {
+max-width: 32pc;
+margin-left: auto;
+margin-right: auto
+}
+.article > p:first-of-type::first-letter {
+font-size: 200%;
+line-height: 1em
+}
+.article > p > a {
+text-decoration: underline;
+font-weight: 500;
+color: #231F20;
+}
+.card-title > span {
+background-color: black !important;
+padding: 2px;
+line-height: 1.3em
+}
+a > svg {
+color: black;
+text-decoration: none
+}
+@font-face {
+font-family: 'Manifold';
+font-weight: 400;
+src: url('/assets/fonts/ManifoldDSA-Regular.eot') format('eot'), url('/assets/fonts/ManifoldDSA-Regular.woff2') format('woff2'), url('/assets/fonts/ManifoldDSA-Regular.woff') format('woff');
+}
+@font-face {
+font-family: 'Manifold';
+font-weight: 500;
+src: url('/assets/fonts/ManifoldDSA-Bold.eot') format('eot'), url('/assets/fonts/ManifoldDSA-Bold.woff2') format('woff2'), url('/assets/fonts/ManifoldDSA-Bold.woff') format('woff');
+}
